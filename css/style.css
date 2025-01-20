@@ -431,6 +431,7 @@ form textarea {
   .home-img {
     order: initial;
     place-items: center;
+    justify-content: normal;
   }
   .home-img img{
     width:250px;
@@ -461,6 +462,14 @@ form textarea {
     margin-left: 25%;
   }
 }
+@media (max-width: 450px){
+.home-img{
+  justify-content: flex-start
+}
+
+} ;
+  
+
 @media (max-width: 340px) {
   :root {
     --big-font: 1.7rem;
